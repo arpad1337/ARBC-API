@@ -1,0 +1,685 @@
+{
+	"data": {
+		"books": {
+			"1": {
+				"cover": "images/beautiful_teams.jpg",
+				"title": "Beautiful Teams",
+				"author": "Andrew Stellman & Jennifer Greene",
+				"publisher": "O'REILLY",
+				"keywords": ["beautiful", "teams", "andrew", "stellman", "jennifer", "greene", "o'reilly", "inspring", "and", "cautionary", "tales", "from", "veteran", "team", "leaders"],
+				"clustervector": [{
+					"a": 129.3098571428571,
+					"b": 76.11276190476191
+				}, {
+					"a": 130.646380952381,
+					"b": 104.6087619047619
+				}, {
+					"a": 128.3924761904762,
+					"b": 26.57033333333333
+				}, {
+					"a": 130.2114285714286,
+					"b": 101.6452857142857
+				}, {
+					"a": 129.5491428571429,
+					"b": 77.51228571428571
+				}, {
+					"a": 128.712380952381,
+					"b": 32.3542380952381
+				}],
+				"key": "1"
+			},
+			"2": {
+				"cover": "images/being_geek.jpg",
+				"title": "Being Geek",
+				"author": "Michael Lopp",
+				"publisher": "O'REILLY",
+				"keywords": ["being", "geek", "michael", "lopp", "o'reilly", "the", "software", "developer's", "career", "handbook"],
+				"clustervector": [{
+					"a": 128.4957619047619,
+					"b": 123.9889523809524
+				}, {
+					"a": 161.1034285714286,
+					"b": 100.5470476190476
+				}, {
+					"a": 128.0080952380953,
+					"b": 38.24795238095238
+				}, {
+					"a": 128.3618571428571,
+					"b": 114.4540476190476
+				}, {
+					"a": 157.2546666666667,
+					"b": 105.8167619047619
+				}, {
+					"a": 127.8077142857143,
+					"b": 37.83980952380953
+				}],
+				"key": "2"
+			},
+			"3": {
+				"cover": "images/good_parts.jpg",
+				"title": "JavaScript The Good Parts",
+				"author": "Douglas Crockford",
+				"publisher": "O'REILLY",
+				"keywords": ["javascript", "the", "good", "parts", "douglas", "crockford", "o'reilly", "yahoo", "press", "unearthing", "excellence"],
+				"clustervector": [{
+					"a": 128.8104285714286,
+					"b": 174.4102380952381
+				}, {
+					"a": 104.745,
+					"b": 181.0615714285714
+				}, {
+					"a": 119.7364285714286,
+					"b": 232.8252857142857
+				}, {
+					"a": 128.505,
+					"b": 207.6888571428572
+				}, {
+					"a": 105.9770952380952,
+					"b": 182.553
+				}, {
+					"a": 119.7885714285714,
+					"b": 233.1066666666667
+				}],
+				"key": "3"
+			},
+			"4": {
+				"cover": "images/high_perf_web_sites.jpg",
+				"title": "High Performance Web Sites",
+				"author": "Steve Sounders",
+				"publisher": "O'REILLY",
+				"keywords": ["high", "performance", "web", "sites", "steve", "sounders", "o'reilly", "foreword", "nate", "koechley", "steps", "faster", "loading", "esential", "knowledge", "for", "front", "end", "engineers"],
+				"clustervector": [{
+					"a": 101.3751904761905,
+					"b": 182.6133333333333
+				}, {
+					"a": 127.7470476190476,
+					"b": 162.659
+				}, {
+					"a": 128.0071428571429,
+					"b": 209.7851904761905
+				}, {
+					"a": 101.6050476190476,
+					"b": 177.996619047619
+				}, {
+					"a": 127.8971904761905,
+					"b": 157.2509047619048
+				}, {
+					"a": 128.0096666666667,
+					"b": 221.6368571428571
+				}],
+				"key": "4"
+			},
+			"5": {
+				"cover": "images/hvg_b_forradalmarok.jpg",
+				"title": "HVG extra Business DIGITÁLIS FORRADALMÁROK",
+				"author": "various",
+				"publisher": "HVG",
+				"keywords": ["hvg", "extra", "business", "digitális", "forradalmárok", "various", "eletmod", "uzlet", "szorakozas", "larry", "page", "jeff", "bezos", "kevin", "systrom", "seth", "godin", "karrier", "stilus"],
+				"clustervector": [{
+					"a": 118.2206190476191,
+					"b": 204.6670952380952
+				}, {
+					"a": 121.6905714285714,
+					"b": 192.0161904761905
+				}, {
+					"a": 128.3032857142857,
+					"b": 163.5209047619048
+				}, {
+					"a": 118.3412380952381,
+					"b": 180.8163333333333
+				}, {
+					"a": 121.1985714285714,
+					"b": 185.9388571428572
+				}, {
+					"a": 127.2476666666667,
+					"b": 181.1773333333333
+				}],
+				"key": "5"
+			},
+			"6": {
+				"cover": "images/hvg_b_kreatorok.jpg",
+				"title": "HVG extra Business KREATOROK",
+				"author": "various",
+				"publisher": "HVG",
+				"keywords": ["hvg", "extra", "business", "kreatorok", "various", "fixer", "diy", "maker", "ipari", "forradalom", "eletmod", "uzlet", "szorakozas", "life", "work"],
+				"clustervector": [{
+					"a": 155.9094761904762,
+					"b": 133.8336666666667
+				}, {
+					"a": 162.0586666666667,
+					"b": 107.6646666666667
+				}, {
+					"a": 160.668619047619,
+					"b": 111.7915238095238
+				}, {
+					"a": 159.7298095238095,
+					"b": 129.4538095238095
+				}, {
+					"a": 160.3487619047619,
+					"b": 114.945
+				}, {
+					"a": 164.1863809523809,
+					"b": 105.7328571428571
+				}],
+				"key": "6"
+			},
+			"7": {
+				"cover": "images/hvg_b_velemenyvezerek.jpg",
+				"title": "HVG extra Business VELEMENYVEZEREK",
+				"author": "various",
+				"publisher": "various",
+				"keywords": ["hvg", "extra", "business", "velemenyvezerek", "various", "elon", "musk", "vasember", "bitcoin", "eletmod", "uzlet", "szorakozas", "life", "stilus", "tanuljunk", "hibainkbol", "chris", "anderson", "ted", "kurator", "best"],
+				"clustervector": [{
+					"a": 136.8338571428571,
+					"b": 68.21561904761904
+				}, {
+					"a": 152.4047142857143,
+					"b": 55.71723809523809
+				}, {
+					"a": 130.0768095238095,
+					"b": 57.43442857142858
+				}, {
+					"a": 135.8824285714286,
+					"b": 75.26152380952381
+				}, {
+					"a": 152.2240952380952,
+					"b": 57.92842857142858
+				}, {
+					"a": 132.1163333333333,
+					"b": 46.50995238095238
+				}],
+				"key": "7"
+			},
+			"8": {
+				"cover": "images/js_web_apps.jpg",
+				"title": "JavaScript Web Applications",
+				"author": "Alex MacCaw",
+				"publisher": "O'REILLY",
+				"keywords": ["javascript", "web", "applications", "alex", "maccaw", "o'reilly", "jquery", "developer's", "guide", "moving", "state", "the", "client"],
+				"clustervector": [{
+					"a": 128.097,
+					"b": 242.6776666666667
+				}, {
+					"a": 122.8600952380952,
+					"b": 229.3966666666667
+				}, {
+					"a": 106.4246666666667,
+					"b": 202.9456190476191
+				}, {
+					"a": 128.5267619047619,
+					"b": 181.6835714285714
+				}, {
+					"a": 124.311380952381,
+					"b": 154.774380952381
+				}, {
+					"a": 105.9540952380952,
+					"b": 201.073619047619
+				}],
+				"key": "8"
+			},
+			"9": {
+				"cover": "images/smashing_1.jpg",
+				"title": "The Smashing BOOK #1",
+				"author": "various",
+				"publisher": "Smashing Media AG",
+				"keywords": ["the", "smashing", "book", "various", "media"],
+				"clustervector": [{
+					"a": 139.0446190476191,
+					"b": 231.6836666666667
+				}, {
+					"a": 149.6563333333334,
+					"b": 214.6874285714286
+				}, {
+					"a": 165.0001428571429,
+					"b": 186.8868095238095
+				}, {
+					"a": 156.3552380952381,
+					"b": 195.9195238095238
+				}, {
+					"a": 141.8224761904762,
+					"b": 226.090380952381
+				}, {
+					"a": 142.8833333333333,
+					"b": 224.7162380952381
+				}],
+				"key": "9"
+			},
+			"10": {
+				"cover": "images/smashing_2.jpg",
+				"title": "THE SMASHING BOOK #2",
+				"author": "various",
+				"publisher": "Smashing Media AG",
+				"keywords": ["the", "smashing", "book", "various", "media"],
+				"clustervector": [{
+					"a": 136.0801904761905,
+					"b": 227.1355714285714
+				}, {
+					"a": 143.1977142857143,
+					"b": 209.9890476190476
+				}, {
+					"a": 160.0025238095238,
+					"b": 160.3670952380952
+				}, {
+					"a": 149.8556190476191,
+					"b": 180.3249047619048
+				}, {
+					"a": 137.117380952381,
+					"b": 223.9613809523809
+				}, {
+					"a": 139.907,
+					"b": 218.7855238095238
+				}],
+				"key": "10"
+			}
+		},
+		"keywords": {
+			"beautiful": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"teams": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"andrew": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"stellman": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"jennifer": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"greene": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"o'reilly": {
+				"count": 5,
+				"books": ["1", "2", "3", "4", "8"]
+			},
+			"inspring": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"and": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"cautionary": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"tales": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"from": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"veteran": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"team": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"leaders": {
+				"count": 1,
+				"books": ["1"]
+			},
+			"being": {
+				"count": 1,
+				"books": ["2"]
+			},
+			"geek": {
+				"count": 1,
+				"books": ["2"]
+			},
+			"michael": {
+				"count": 1,
+				"books": ["2"]
+			},
+			"lopp": {
+				"count": 1,
+				"books": ["2"]
+			},
+			"the": {
+				"count": 5,
+				"books": ["2", "3", "8", "9", "10"]
+			},
+			"software": {
+				"count": 1,
+				"books": ["2"]
+			},
+			"developer's": {
+				"count": 2,
+				"books": ["2", "8"]
+			},
+			"career": {
+				"count": 1,
+				"books": ["2"]
+			},
+			"handbook": {
+				"count": 1,
+				"books": ["2"]
+			},
+			"javascript": {
+				"count": 2,
+				"books": ["3", "8"]
+			},
+			"good": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"parts": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"douglas": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"crockford": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"yahoo": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"press": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"unearthing": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"excellence": {
+				"count": 1,
+				"books": ["3"]
+			},
+			"high": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"performance": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"web": {
+				"count": 2,
+				"books": ["4", "8"]
+			},
+			"sites": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"steve": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"sounders": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"foreword": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"nate": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"koechley": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"steps": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"faster": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"loading": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"esential": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"knowledge": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"for": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"front": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"end": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"engineers": {
+				"count": 1,
+				"books": ["4"]
+			},
+			"hvg": {
+				"count": 3,
+				"books": ["5", "6", "7"]
+			},
+			"extra": {
+				"count": 3,
+				"books": ["5", "6", "7"]
+			},
+			"business": {
+				"count": 3,
+				"books": ["5", "6", "7"]
+			},
+			"digitális": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"forradalmárok": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"various": {
+				"count": 5,
+				"books": ["5", "6", "7", "9", "10"]
+			},
+			"eletmod": {
+				"count": 3,
+				"books": ["5", "6", "7"]
+			},
+			"uzlet": {
+				"count": 3,
+				"books": ["5", "6", "7"]
+			},
+			"szorakozas": {
+				"count": 3,
+				"books": ["5", "6", "7"]
+			},
+			"larry": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"page": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"jeff": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"bezos": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"kevin": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"systrom": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"seth": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"godin": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"karrier": {
+				"count": 1,
+				"books": ["5"]
+			},
+			"stilus": {
+				"count": 2,
+				"books": ["5", "7"]
+			},
+			"kreatorok": {
+				"count": 1,
+				"books": ["6"]
+			},
+			"fixer": {
+				"count": 1,
+				"books": ["6"]
+			},
+			"diy": {
+				"count": 1,
+				"books": ["6"]
+			},
+			"maker": {
+				"count": 1,
+				"books": ["6"]
+			},
+			"ipari": {
+				"count": 1,
+				"books": ["6"]
+			},
+			"forradalom": {
+				"count": 1,
+				"books": ["6"]
+			},
+			"life": {
+				"count": 2,
+				"books": ["6", "7"]
+			},
+			"work": {
+				"count": 1,
+				"books": ["6"]
+			},
+			"velemenyvezerek": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"elon": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"musk": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"vasember": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"bitcoin": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"tanuljunk": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"hibainkbol": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"chris": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"anderson": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"ted": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"kurator": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"best": {
+				"count": 1,
+				"books": ["7"]
+			},
+			"applications": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"alex": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"maccaw": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"jquery": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"guide": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"moving": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"state": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"client": {
+				"count": 1,
+				"books": ["8"]
+			},
+			"smashing": {
+				"count": 2,
+				"books": ["9", "10"]
+			},
+			"book": {
+				"count": 2,
+				"books": ["9", "10"]
+			},
+			"media": {
+				"count": 2,
+				"books": ["9", "10"]
+			}
+		}
+	},
+	"sequences": {
+		"books_seq": 11
+	}
+}
