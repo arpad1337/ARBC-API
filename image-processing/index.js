@@ -28,6 +28,7 @@ module.exports = (function() {
 			exec(command, function(error, stdout, stderr) {
 				if (error) {
 					cb(error);
+					return;
 				}
 
 				console.log("Process finished...");
@@ -65,6 +66,7 @@ module.exports = (function() {
 			exec(command, function(error, stdout, stderr) {
 				if (error) {
 					cb(error);
+					return;
 				}
 
 				console.log("Process finished...");
@@ -90,6 +92,7 @@ module.exports = (function() {
 			exec(command, function(error, stdout, stderr) {
 				if (error) {
 					cb(error);
+					return;
 				}
 
 				console.log("Process finished...");

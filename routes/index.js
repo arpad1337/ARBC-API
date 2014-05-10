@@ -35,16 +35,13 @@ module.exports = (function() {
 					idf = 1 / Math.log(bookCount / corpus[c].count);
 					tf = 0.5;
 					for (d in corpus[c].books) {
-						tf += 0.5 * 1 / books[corpus[c].books[d]].keywords.length;
-					}
-					for (d in corpus[c].books) {
 						if (documents[corpus[c].books[d]]) {
 							documents[corpus[c].books[d]].keywords.push(c);
-							documents[corpus[c].books[d]].score = documents[corpus[c].books[d]].score + idf * tf;
+							documents[corpus[c].books[d]].score = documents[corpus[c].books[d]].score + idf * (tf + 0.5 * 1 / books[corpus[c].books[d]].keywords.length);
 						} else {
 							documents[corpus[c].books[d]] = {
 								"keywords": [c],
-								"score": idf * tf
+								"score": idf * (tf + 0.5 * 1 / books[corpus[c].books[d]].keywords.length)
 							};
 						}
 					}
@@ -110,6 +107,7 @@ module.exports = (function() {
 
 			ip.clusterImage(req.files.picture.path, function(err, result) {
 				if (err) {
+					console.log(err);
 					res.sendJSON({
 						error: 'something went wrong'
 					});
@@ -123,7 +121,7 @@ module.exports = (function() {
 				if (result.clustervector) {
 					for (b in db.data.books) {
 						console.log("Book: " + b);
-						if (_checkVectorDistances(70, result.clustervector, db.data.books[b].clustervector)) {
+						if (_checkVectorDistances(78, result.clustervector, db.data.books[b].clustervector)) {
 							console.log(b + ": true");
 							ids.push(b);
 						}
@@ -251,6 +249,8 @@ module.exports = (function() {
 						});
 						return;
 					}
+
+					delete result.key;
 
 					db.update("books", id, result);
 					db.commit();

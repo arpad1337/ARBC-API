@@ -270,6 +270,85 @@
 					"b": 218.7855238095238
 				}],
 				"key": "10"
+			},
+			"11": {
+				"cover": "images/1399646006qc.jpg",
+				"title": "50 quick ideas to improve your user stories",
+				"author": "Gojko Adzic",
+				"publisher": "self",
+				"keywords": ["quick", "ideas", "improve", "your", "user", "stories", "gojko", "adzic", "self"],
+				"key": "11",
+				"clustervector": [{
+					"a": 123.3103333333333,
+					"b": 154.3687142857143
+				}, {
+					"a": 124.4372380952381,
+					"b": 190.5404285714286
+				}, {
+					"a": 124.3011904761905,
+					"b": 176.0190476190476
+				}, {
+					"a": 123.9271428571429,
+					"b": 158.9371904761905
+				}, {
+					"a": 124.2146666666667,
+					"b": 209.5152380952381
+				}, {
+					"a": 124.0897142857143,
+					"b": 189.7955714285714
+				}]
+			},
+			"12": {
+				"cover": "images/1399702456yt.jpg",
+				"title": "Mining the Social Web",
+				"author": "Matthew A. Russel",
+				"publisher": "O'REILLY",
+				"keywords": ["mining", "the", "social", "web", "matthew", "russel", "o'reilly", "data", "facebook", "twitter", "linkedin", "google", "github", "and", "more"],
+				"clustervector": [{
+					"a": 128.2977142857143,
+					"b": 214.4485238095238
+				}, {
+					"a": 166.656,
+					"b": 160.8737142857143
+				}, {
+					"a": 168.4553333333333,
+					"b": 181.2838095238095
+				}, {
+					"a": 128.535380952381,
+					"b": 182.5737619047619
+				}, {
+					"a": 168.4238095238095,
+					"b": 137.2709047619048
+				}, {
+					"a": 170.8024761904762,
+					"b": 177.0329523809524
+				}]
+			},
+			"13": {
+				"cover": "images/1399710066vr.jpg",
+				"title": "HVG extra Business START",
+				"author": "various",
+				"publisher": "HVG",
+				"keywords": ["hvg", "extra", "business", "start", "various", "eletmod", "szorakozas", "uzlet", "life", "style", "guy", "kawasaki", "lego", "telep", "tedd", "meg", "elso", "lepest"],
+				"clustervector": [{
+					"a": 117.7800476190476,
+					"b": 151.5010952380952
+				}, {
+					"a": 135.2225714285714,
+					"b": 141.9167142857143
+				}, {
+					"a": 121.9976190476191,
+					"b": 141.7468095238095
+				}, {
+					"a": 118.5738571428572,
+					"b": 157.4077142857143
+				}, {
+					"a": 133.3470952380952,
+					"b": 129.1114761904762
+				}, {
+					"a": 122.7936666666667,
+					"b": 124.4018095238095
+				}]
 			}
 		},
 		"keywords": {
@@ -298,16 +377,16 @@
 				"books": ["1"]
 			},
 			"o'reilly": {
-				"count": 5,
-				"books": ["1", "2", "3", "4", "8"]
+				"count": 6,
+				"books": ["1", "2", "3", "4", "8", "12"]
 			},
 			"inspring": {
 				"count": 1,
 				"books": ["1"]
 			},
 			"and": {
-				"count": 1,
-				"books": ["1"]
+				"count": 2,
+				"books": ["1", "12"]
 			},
 			"cautionary": {
 				"count": 1,
@@ -350,8 +429,8 @@
 				"books": ["2"]
 			},
 			"the": {
-				"count": 5,
-				"books": ["2", "3", "8", "9", "10"]
+				"count": 6,
+				"books": ["2", "3", "8", "9", "10", "12"]
 			},
 			"software": {
 				"count": 1,
@@ -414,8 +493,8 @@
 				"books": ["4"]
 			},
 			"web": {
-				"count": 2,
-				"books": ["4", "8"]
+				"count": 3,
+				"books": ["4", "8", "12"]
 			},
 			"sites": {
 				"count": 1,
@@ -478,16 +557,16 @@
 				"books": ["4"]
 			},
 			"hvg": {
-				"count": 3,
-				"books": ["5", "6", "7"]
+				"count": 4,
+				"books": ["5", "6", "7", "13"]
 			},
 			"extra": {
-				"count": 3,
-				"books": ["5", "6", "7"]
+				"count": 4,
+				"books": ["5", "6", "7", "13"]
 			},
 			"business": {
-				"count": 3,
-				"books": ["5", "6", "7"]
+				"count": 4,
+				"books": ["5", "6", "7", "13"]
 			},
 			"digitális": {
 				"count": 1,
@@ -498,20 +577,20 @@
 				"books": ["5"]
 			},
 			"various": {
-				"count": 5,
-				"books": ["5", "6", "7", "9", "10"]
+				"count": 6,
+				"books": ["5", "6", "7", "9", "10", "13"]
 			},
 			"eletmod": {
-				"count": 3,
-				"books": ["5", "6", "7"]
+				"count": 4,
+				"books": ["5", "6", "7", "13"]
 			},
 			"uzlet": {
-				"count": 3,
-				"books": ["5", "6", "7"]
+				"count": 4,
+				"books": ["5", "6", "7", "13"]
 			},
 			"szorakozas": {
-				"count": 3,
-				"books": ["5", "6", "7"]
+				"count": 4,
+				"books": ["5", "6", "7", "13"]
 			},
 			"larry": {
 				"count": 1,
@@ -578,8 +657,8 @@
 				"books": ["6"]
 			},
 			"life": {
-				"count": 2,
-				"books": ["6", "7"]
+				"count": 3,
+				"books": ["6", "7", "13"]
 			},
 			"work": {
 				"count": 1,
@@ -676,10 +755,130 @@
 			"media": {
 				"count": 2,
 				"books": ["9", "10"]
+			},
+			"quick": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"ideas": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"improve": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"your": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"user": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"stories": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"gojko": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"adzic": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"self": {
+				"count": 1,
+				"books": ["11"]
+			},
+			"mining": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"social": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"matthew": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"russel": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"data": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"facebook": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"twitter": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"linkedin": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"google": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"github": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"more": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"start": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"style": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"guy": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"kawasaki": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"lego": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"telep": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"tedd": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"meg": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"elso": {
+				"count": 1,
+				"books": ["13"]
+			},
+			"lepest": {
+				"count": 1,
+				"books": ["13"]
 			}
 		}
 	},
 	"sequences": {
-		"books_seq": 11
+		"books_seq": 14
 	}
 }
