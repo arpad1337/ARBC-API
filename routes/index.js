@@ -16,7 +16,6 @@ module.exports = (function() {
 			a = (from[i].a - to[i].a) * (from[i].a - to[i].a);
 			b = (from[i].b - to[i].b) * (from[i].b - to[i].b);
 			dist = Math.sqrt(a + b);
-			console.log(from[i] + " => " + to[i] + " = " + dist);
 			if (dist > tolerance) return false;
 		}
 		return true;
