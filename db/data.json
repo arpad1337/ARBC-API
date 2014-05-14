@@ -60,7 +60,7 @@
 				"title": "JavaScript The Good Parts",
 				"author": "Douglas Crockford",
 				"publisher": "O'REILLY",
-				"keywords": ["javascript", "the", "good", "parts", "douglas", "crockford", "o'reilly", "yahoo", "press", "unearthing", "excellence"],
+				"keywords": ["java", "script", "javascript", "the", "good", "parts", "douglas", "crockford", "o'reilly", "yahoo", "press", "unearthing", "excellence"],
 				"clustervector": [{
 					"a": 128.8104285714286,
 					"b": 174.4102380952381
@@ -195,7 +195,7 @@
 				"title": "JavaScript Web Applications",
 				"author": "Alex MacCaw",
 				"publisher": "O'REILLY",
-				"keywords": ["javascript", "web", "applications", "alex", "maccaw", "o'reilly", "jquery", "developer's", "guide", "moving", "state", "the", "client"],
+				"keywords": ["java", "script", "javascript", "web", "applications", "alex", "maccaw", "o'reilly", "jquery", "developer's", "guide", "moving", "state", "the", "client"],
 				"clustervector": [{
 					"a": 128.097,
 					"b": 242.6776666666667
@@ -303,7 +303,7 @@
 				"title": "Mining the Social Web",
 				"author": "Matthew A. Russel",
 				"publisher": "O'REILLY",
-				"keywords": ["mining", "the", "social", "web", "matthew", "russel", "o'reilly", "data", "facebook", "twitter", "linkedin", "google", "github", "and", "more"],
+				"keywords": ["mining", "the", "social", "web", "matthew", "russel", "o'reilly", "data", "facebook", "twitter", "linkedin", "google", "github", "and", "more", "2nd", "edition"],
 				"clustervector": [{
 					"a": 128.2977142857143,
 					"b": 214.4485238095238
@@ -400,6 +400,32 @@
 				}, {
 					"a": 149.9449047619048,
 					"b": 185.4164285714286
+				}]
+			},
+			"16": {
+				"cover": "images/1400063955li.jpg",
+				"title": "Figyelo magazin 19. szam",
+				"author": "various",
+				"publisher": "Figyelo",
+				"keywords": ["figyelo", "magazin", "19.", "szam", "various", "mibol", "lesz", "prezi", "uzlet", "gazdasag", "tarsadalom"],
+				"clustervector": [{
+					"a": 151.9069523809524,
+					"b": 132.3036666666667
+				}, {
+					"a": 138.7571904761905,
+					"b": 105.8591428571429
+				}, {
+					"a": 129.6611428571429,
+					"b": 63.78
+				}, {
+					"a": 137.8465238095238,
+					"b": 92.06504761904762
+				}, {
+					"a": 133.2846190476191,
+					"b": 102.3710476190476
+				}, {
+					"a": 129.8582380952381,
+					"b": 75.7034761904762
 				}]
 			}
 		},
@@ -629,16 +655,16 @@
 				"books": ["5"]
 			},
 			"various": {
-				"count": 6,
-				"books": ["5", "6", "7", "9", "10", "13"]
+				"count": 7,
+				"books": ["5", "6", "7", "9", "10", "13", "16"]
 			},
 			"eletmod": {
 				"count": 4,
 				"books": ["5", "6", "7", "13"]
 			},
 			"uzlet": {
-				"count": 4,
-				"books": ["5", "6", "7", "13"]
+				"count": 5,
+				"books": ["5", "6", "7", "13", "16"]
 			},
 			"szorakozas": {
 				"count": 4,
@@ -1019,10 +1045,62 @@
 			"fenntarthatova": {
 				"count": 1,
 				"books": ["15"]
+			},
+			"figyelo": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"magazin": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"19.": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"szam": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"mibol": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"lesz": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"prezi": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"gazdasag": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"tarsadalom": {
+				"count": 1,
+				"books": ["16"]
+			},
+			"2nd": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"edition": {
+				"count": 1,
+				"books": ["12"]
+			},
+			"java": {
+				"count": 2,
+				"books": ["3", "8"]
+			},
+			"script": {
+				"count": 2,
+				"books": ["3", "8"]
 			}
 		}
 	},
 	"sequences": {
-		"books_seq": 16
+		"books_seq": 17
 	}
 }
