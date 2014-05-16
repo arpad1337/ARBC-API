@@ -1,6 +1,7 @@
 var fs = require('fs');
 
 module.exports = (function() {
+	//_file = __dirname + "/data.json";
 	_file = __dirname + "/data.json";
 	_data = [];
 	_lastChanges = [];

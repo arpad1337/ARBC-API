@@ -11,14 +11,27 @@ module.exports = (function() {
 	_checkVectorDistances = function(tolerance, from, to) {
 		var dist = 0,
 			a = 0,
-			b = 0;
+			b = 0,
+			sA = 0,
+			sB = 0,
+			dA = 0,
+			dB = 0;
 		for (var i = 0; i < from.length; i++) {
-			a = (from[i].a - to[i].a) * (from[i].a - to[i].a);
-			b = (from[i].b - to[i].b) * (from[i].b - to[i].b);
-			dist = Math.sqrt(a + b);
-			if (dist > tolerance) return false;
+			sA += from[i].a;
+			dA += to[i].a;
+			sB += from[i].b;
+			dB += to[i].b;
 		}
-		return true;
+		sA = sA / from.length;
+		sB = sB / from.length;
+		dA = dA / from.length;
+		dB = dB / from.length;
+
+		dist = Math.sqrt(
+				(sA - dA) * (sA - dA) +
+				(sB - dB) * (sB - dB)
+			);
+		return dist < tolerance;
 	};
 	_checkKeywords = function(keywords, corpus, books) {
 		var documents = {};
